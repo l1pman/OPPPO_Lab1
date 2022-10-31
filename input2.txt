@@ -1,0 +1,57 @@
+printAll()
+tree {Birch, 45}
+tree {Fir, 80}
+tree {Fir, 12}
+printAll()
+delete(0)
+printAll()
+delete(1)
+printAll()
+delete(1) // wrong command
+
+printAll()
+
+tree {Birch, 45}
+
+tree {45, 45} // wrong command
+tree {Birch, 45.55} // wrong command
+tree {birch, 45} // wrong command
+tree {Birch, 45, 45}  // wrong command
+tree {Birch, -45} // wrong command
+tree Birch, 45 // wrong command
+tree {Birch12, 45} // wrong command
+tree {Birch, ten} // wrong command
+tr {Birch, 10}  // wrong command
+ 
+
+
+bush {Currant, June}
+bush {Lilac, May}
+bush {Currant, 45} // wrong command
+bush {Currant, Winter} // wrong command
+
+cactus {Melocactus, 44.5}
+cactus {Ocotillo, 20}
+cactus {Melocactus, ten} // wrong command
+tree {Apple, 44}
+tree {Zzzzzvis, 31}
+tree {Dddd, 10}
+bush {Yeee, May}
+printAll()
+print(2)
+printAllBushes()
+sort_by_name()
+
+
+printAll()
+print(4)
+deleteAllTrees()
+printAll()
+deleteAllCactuses()
+printAll()
+tree {Birch, 15}
+printAll()
+deleteAllBushes()
+printAll()
+deleteAll()
+printAll()
